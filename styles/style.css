@@ -61,7 +61,7 @@ header {
   background: url(../images/developer.png), url(../images/header_bg.png),
     #fff8f3;
   background-repeat: no-repeat;
-  background-position: top left, bottom right;
+  background-position: 23px 38px, bottom right;
 }
 
 nav {
@@ -217,12 +217,56 @@ nav .menu a {
 .resume-card .card-text {
   font-size: 16px;
   line-height: 28px;
-margin-bottom: 20px;
+  margin-bottom: 20px;
   color: #474747;
 }
-.resume-container hr{
-margin: 30px 30px;
+.resume-container hr {
+  margin: 30px 30px;
 }
-.center{
+.center {
   text-align: center;
+}
+footer {
+  margin-top: 130px;
+  background-color: #fff8f3;
+  padding: 130px 0px;
+}
+.footer-container {
+  width: 71%;
+  max-width: 1440;
+  margin: 0 auto;
+  display: flex;
+  gap: 116px;
+}
+.footer-container .social {
+  max-width: 562px;
+}
+.footer-container h2 {
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.footer-container p {
+  font-size: 16px;
+  color: #121010;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+.footer-container {
+    width: 71%;
+    max-width: 1440;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+  }
+.footer-container .icons a {
+  margin-right: 24px;
+}
+.footer-container form input[type="text"] , textarea {
+  width: 461px;
+  padding: 18px 31px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  color: #757575;
 }
